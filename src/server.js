@@ -106,8 +106,9 @@ app.get('/', (req, res) => {
             response+='++ Skipping Secrets via API as smConfig is null \n';
         }
         // 
+        response+='++ Request processed successfully\n';
     }catch(e){
-        response+'Error fatal:'+e+'\n';
+        response+'!! Error fatal:'+e+'\n';
         console.error(e);
     }
     //
