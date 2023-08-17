@@ -79,9 +79,11 @@ function readSecretsFromSM(smConfig){
 
 app.get('/', (req, res) => {
     var response='';
+    response+='**********************************************************\n';
+    response+='**  Minimal-web is working for you !!\n';
+    response+='**********************************************************\n';
     //
     try {
-        response+='Application is running!!\n';
         //
         // Secrets injected as environment variable
         var sharedUtils = require('@t23/t23-shared-utils');
