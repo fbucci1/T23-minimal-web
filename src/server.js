@@ -86,7 +86,6 @@ app.get('/', (req, res) => {
     try {
         //
         // Secrets injected as environment variable
-        var sharedUtils = require('@t23/t23-shared-utils');
         response+=printSecretsInEnvVariables('T23_SECRET');
         //
         // Secrets injected as files
