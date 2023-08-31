@@ -1,0 +1,4 @@
+{
+    "first-secret":"F1-A-secret-in-sample-config-file",
+    "second-secret":"F2-A-secret-in-sample-config-file"
+}
